@@ -32,4 +32,37 @@ header{
  margin-left: 60px;
  font-size: 15px;  
  font-weight: 600; 
+ border-bottom: 2px solid transparent;
+ transition: all .55s ease;
+}
+.navlist a:hover{
+    border-bottom: 2px solid white;
+}
+
+#menu-icons{
+ color: white;
+ font-size: 30px;
+ z-index: 10001;
+ cursor: pointer;
+ display: none;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #4d9559 0%, #38703d, #133917 70.25%);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+section{
+    padding: 0 19%;
+}
+.hero-text h5{
+font-size: 14px;
+font-weight: 400;
+color: white;
+margin-bottom: 40px
 }
